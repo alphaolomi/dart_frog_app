@@ -16,7 +16,7 @@ import 'package:todos_data_source/todos_data_source.dart';
 /// * U - Update
 /// * D - Delete
 abstract class TodosDataSource {
-  /// TODO(alphaolomi): Create and return the newly created todo, https://github.com/flutter/samples/issues/632
+  /// Create and return the newly created todo,
   Future<Todo> create(Todo todo);
 
   /// Return all todos.
